@@ -58,7 +58,7 @@ $(document).ready(function(){
 	Path.history.listen(true);
 	
 	if(window.location.pathname === "/dandak.is/"){
-		Path.history.pushState(null, null, "/dandak.is/me");
+		Path.history.pushState(null, null, "/dandak.is/nick");
 	} else if(window.location.pathname != "/"){
 		Path.history.pushState(null, null, window.location.pathname);
 	} 

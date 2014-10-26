@@ -12,13 +12,9 @@ h1,h2,h3,h4,h5,h6,p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-main, header {
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
 main {
-	padding-bottom: 100px;
+	margin: 2% 0 0 0;
+	padding-bottom: 150px; /* for footer and some change */
 }
 
 /* FOOTER */
@@ -32,7 +28,6 @@ footer {
 }
 
 #social {
-/*	height: 100%;*/
 	margin-top: 18px;
 }
 
@@ -144,20 +139,45 @@ p#bio {
 	display: inline-block;
 	background-color: #333;
 	color: #f7f7f7;
-}
-
-.resume-header-left {
-	float: right;
-}
-
-.resume-header-right {
-	float: left;
+	margin-bottom: -1rem!important;
 }
 
 #resume-column-left {
 	padding-right: 2rem!important;
 }
 
+#resume-column-left > * h2 {
+	float: right;
+}
+
+#resume-column-left > * h3, #resume-column-left > * h4 {
+	text-align: right;
+}
+
+#resume-column-right > * h3, #resume-column-right > * h4 {
+	text-align: left;
+}
+
 #resume-column-right {
 	padding-left: 2rem!important;
+}
+
+.resume-row {
+	margin-top: 2rem!important;
+}
+
+#resume-column-left > * .resume-row {
+	float: right;
+}
+
+.resume-section {
+	margin-top: 2rem!important;
+}
+
+.fi-asterisk.light-asterisk {
+	color: #6f6f6f;
+}
+
+.rating .fi-asterisk {
+	font-size: 1.6875rem;
 }
