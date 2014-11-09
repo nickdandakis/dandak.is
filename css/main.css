@@ -31,7 +31,7 @@ footer {
 	margin-top: 18px;
 }
 
-#social > * i {
+#social > * span {
 	color: #f7f7f7;
 	font-size: 38px;
 	vertical-align: bottom;
@@ -41,19 +41,19 @@ footer {
 	color: #e74c3c!important;
 }
 
-#social > * i.fi-mail:hover {
+#social > * span.fi-mail:hover {
 	color: #d1a136!important;
 }
 
-#social > * i.fi-social-twitter:hover {
+#social > * span.fi-social-twitter:hover {
 	color: #4099FF!important;
 }
 
-#social > * i.fi-social-linkedin:hover {
+#social > * span.fi-social-linkedin:hover {
 	color: #007bb6!important;
 }
 
-#social > * i.fi-social-github:hover {
+#social > * span.fi-social-github:hover {
 	color: #909090!important;
 }
 
@@ -72,7 +72,6 @@ footer #headers h1, footer #headers h2 {
 }
 
 footer #headers h1 {
-	letter-spacing: 24px;
 	font-size: 28px;
 	margin: 10px 0 0 0;
 }
@@ -90,7 +89,7 @@ nav {
 	margin-top: 22px;
 }
 
-nav > * i {
+nav > * span {
 	color: #2c353e;
 	-webkit-text-stroke: 1px #f7f7f7;
 	font-size: 38px;
@@ -135,6 +134,16 @@ nav > a i.fi-lightbulb {
 p#bio {
 	color: #505050;
 	font-size: 1em;
+}
+
+.infographic-header {
+	display: inline-block;
+	margin: 0;
+	line-height: 100%;
+}
+
+.cursive-header {
+	font-family: 'Dancing Script', cursive;
 }
 
 /* RESUME */
