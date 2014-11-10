@@ -100,7 +100,7 @@ nav > * .active {
 	-webkit-text-stroke: 0;
 }
 
-nav > * i:hover {
+nav > * span:hover {
 	color: #e74c3c!important;
 	-webkit-text-stroke: 0!important;
 }
@@ -110,19 +110,19 @@ nav > a {
 	padding-left: 38px;
 }
 
-nav > a i.fi-torso {
+nav > a span.fi-torso {
 	vertical-align: sub;
 }
 
-nav > a i.fi-page-filled {
+nav > a span.fi-page-filled {
 	vertical-align: inherit;
 }
 
-nav > a i.fi-folder {
+nav > a span.fi-folder {
 	vertical-align: sub;
 }
 
-nav > a i.fi-lightbulb {
+nav > a span.fi-lightbulb {
 	vertical-align: inherit;
 }
 
